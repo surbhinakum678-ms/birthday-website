@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, serif;
+    background: #fff5f8;
+    color: #4a3440;
+    text-align: center;
+}
+.hero{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:cneter;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(135deg,#ffe1ec,#fff8fb);
+}
+.small-text{
+    font-size: 55px;
+    line-height: 1,1;
+    margin-bottom: 25px;
+}
+.hearts{
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    font-size: 25px;
+    word-spacing: 25px;
+    opacity: 0.5;
+    z-index: 5;
+}
+.memories{
+    padding: 90px 25px;
+}
+h2{
+    font-size: 38px;
+    margin-bottom: 45px;
+}
+.card{
+    background: white;
+    max-width: 350xpx;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px
+    #b96a8525;
+}
+.photo-placeholder{
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffe1ec;
+    border-radius: 18px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.card h3{
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+.card p{
+    line-height: 1,6;
+}
+.letter{
+    padding: 90px 25px;
+    background: #fff0f5;
+}
+.letter-box{
+    max-width: 650px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow:0 10px 35px
+    #b96a8520;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 17px;
+}
+.letter-box p{
+    margin-bottom: 20px;
+}
+.ending{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.confetti{
+    margin-top: 35px;
+    font-size: 30px;
+}
+footer{
+    padding: 25px;
+    background: #413440;
+    color: white;
+}
+@keyframes bounce{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform:translateY(-15px);
+        }
+}
+@media (max-width: 600px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 16px;
+    }
+    .letter-box{
+        padding: 25px
+    }
+}
